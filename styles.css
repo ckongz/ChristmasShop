@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f0f8ff; 
+  background-image: url('christmas-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #850825; 
+  color: white;
+}
+
+header img {
+  max-width: 200px; 
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  color: #fcba63; 
+  margin: 10px 0;
+}
+
+nav {
+  background-color: #006400; 
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff; 
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin: 0 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #fcba63; 
+  color: #850825; 
+}
+
+section.savings {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fcba63; 
+  color: #850825; 
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 3px solid #333;
+}
+
+section.offer {
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 40px 20px;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #850825; 
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666666; 
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+  border: 3px solid #fcba63; 
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+}
+
+table {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  padding: 10px;
+  background-color: #fcba63; 
+  color: #850825; 
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.button {
+  background-color: #fcba63; 
+  color: #850825;
+  border-color: #fcba63;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 12px 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: 0.3s background-color ease;
+}
+
+.button:hover {
+  background-color: #850825; 
+  color: #ffffff; 
+}
+
+footer {
+  background-color: #850825; 
+  color: #ee8686;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #fcba63; 
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff; 
+}
+
+.countdown-title {
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  text-align: center;
+  color: #850825;
+}
+
+.countdown-text {
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fcba63; 
+}
