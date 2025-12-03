@@ -44,4 +44,3 @@ $saving = $usual_price - $offer_price;
 <img src="img/cookies-1.jpg" alt="Christmas Cookies">
 
 <?php include 'includes/footer.php'; ?>
-
