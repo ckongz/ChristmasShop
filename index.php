@@ -1,8 +1,8 @@
 <?php include 'includes/header.php'; ?>
 
 <?php
-$username = "Customer"; //1
-$greeting = "Hello, " . $username . "! Welcome to Christmas Cookies Shop!"; //2
+$username = "Customer"; 
+$greeting = "Hello, " . $username . "! Welcome to Christmas Cookies Shop!"; 
 
 $offer = array(
     "item" => "Christmas Cookies",
@@ -44,3 +44,4 @@ $saving = $usual_price - $offer_price;
 <img src="img/cookies-1.jpg" alt="Christmas Cookies">
 
 <?php include 'includes/footer.php'; ?>
+
